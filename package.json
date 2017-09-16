@@ -18,7 +18,10 @@
         "commands": [{
             "command": "extension.sayHello",
             "title": "Hello World"
-        }]
+        }],
+        "activationEvents": [
+            "onLanguage:markdown"
+        ]
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
